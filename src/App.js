@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Game from './game';
 
@@ -15,22 +14,22 @@ function App() {
       <div>
         <div className='row'>
 
-          <button className='btn bg-green' onClick={() => {Game('green')}}>
+          <button id='green' className='btn bg-green' onClick={() => {Game('green')}}>
 
           </button>
 
-          <button className='btn bg-red' onClick={() => {Game('red')}}>
+          <button id='red' className='btn bg-red' onClick={() => {Game('red')}}>
 
           </button>
         </div>
 
         <div className='row'>
 
-          <button className='btn bg-yellow' onClick={() => {Game('yellow')}}>
+          <button id='yellow' className='btn bg-yellow' onClick={() => {Game('yellow')}}>
 
           </button>
 
-          <button className='btn bg-blue' onClick={() => {Game('blue')}}>
+          <button id='blue' className='btn bg-blue' onClick={() => {Game('blue')}}>
 
           </button>
 
