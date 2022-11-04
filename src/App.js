@@ -9,35 +9,34 @@ function App() {
 
   return (
     <>
-    <div className='main center bg-background'>
-      <h1 id='level-title'>Press A Key to Start</h1>
-      <div>
-        <div className='row'>
+      <div className='main center'>
+        <h1 id='level-title'>Press A Key to Start</h1>
+        <div>
+          <div className='row'>
 
-          <button id='green' className='btn bg-green' onClick={() => {Game('green')}}>
+            <button id='green' className='btn' onClick={() => {Game('green')}}>
 
-          </button>
+            </button>
 
-          <button id='red' className='btn bg-red' onClick={() => {Game('red')}}>
+            <button id='red' className='btn' onClick={() => {Game('red')}}>
 
-          </button>
+            </button>
+          </div>
+
+          <div className='row'>
+
+            <button id='yellow' className='btn' onClick={() => {Game('yellow')}}>
+
+            </button>
+
+            <button id='blue' className='btn' onClick={() => {Game('blue')}}>
+
+            </button>
+
+          </div>
+
         </div>
-
-        <div className='row'>
-
-          <button id='yellow' className='btn bg-yellow' onClick={() => {Game('yellow')}}>
-
-          </button>
-
-          <button id='blue' className='btn bg-blue' onClick={() => {Game('blue')}}>
-
-          </button>
-
-        </div>
-
       </div>
-    </div>
-      
     </>
   );
 }

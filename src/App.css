@@ -36,20 +36,25 @@
   width: 200px;
   border: 10px solid #000000;
   border-radius: 20%;
+  filter: brightness(75%);
 }
 
 #green {
   background-color: var(--green);
+  box-shadow: none;
 }
 
 #red {
   background-color: var(--red);
+  box-shadow: none;
 }
 
 #yellow {
   background-color: var(--yellow);
+  box-shadow: none;
 }
 
 #blue {
   background-color: var(--blue);
+  box-shadow: none;
 }
