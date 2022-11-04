@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/simongame/static/css/main.6f6e4431.css",
+    "main.css": "/simongame/static/css/main.64d6c053.css",
     "main.js": "/simongame/static/js/main.38f04911.js",
     "static/js/787.774bf5fd.chunk.js": "/simongame/static/js/787.774bf5fd.chunk.js",
     "static/media/PressStart2P-Regular.ttf": "/simongame/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
     "index.html": "/simongame/index.html",
-    "main.6f6e4431.css.map": "/simongame/static/css/main.6f6e4431.css.map",
+    "main.64d6c053.css.map": "/simongame/static/css/main.64d6c053.css.map",
     "main.38f04911.js.map": "/simongame/static/js/main.38f04911.js.map",
     "787.774bf5fd.chunk.js.map": "/simongame/static/js/787.774bf5fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f6e4431.css",
+    "static/css/main.64d6c053.css",
     "static/js/main.38f04911.js"
   ]
 }
