@@ -1,6 +1,7 @@
 {
   "name": "simon-game",
   "version": "0.1.0",
+  "homepage": "https://SeaLandBestLand.github.io/simongame",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
