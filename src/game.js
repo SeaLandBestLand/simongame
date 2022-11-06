@@ -15,22 +15,7 @@ export function PlaySound(name) {
 export function Select(colour) {   
     document.getElementById(colour).style.backgroundColor = '#9e9e9e';
     PlaySound(colour);
-    switch (colour) {
-        case 'green':
-            sequence.push('green');
-            break;
-        case 'red':
-            sequence.push('red');
-            break;
-        case 'yellow':
-            sequence.push('yellow');
-            break;
-        case 'blue':
-            sequence.push('blue');
-            break;
-        default:
-            console.log('if you see this idfk what happened');
-    };
+    sequence.push(colour);
     setTimeout (() => {
         document.getElementById(colour).style.backgroundColor = colour; 
     }, 100)
@@ -70,6 +55,7 @@ export function CheckSequences(sequence, trueSequence) {
 window.onkeypress = () => {
     if (status === 'fail') {
         GenerateSequence();
+        status = 'winning';
     };
 };
 
