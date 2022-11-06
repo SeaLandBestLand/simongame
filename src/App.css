@@ -36,7 +36,6 @@
   width: 200px;
   border: 10px solid #000000;
   border-radius: 20%;
-  filter: brightness(75%);
 }
 
 #green {
